@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Navigation graph for fragments-->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.petrpol.ageofempires2leaderboard.ui.leaderboardFragment.LeaderboardFragment"
+        android:label="@string/title_leaderboard"
+        tools:layout="@layout/leaderboard_fragment" >
+        <action
+            android:id="@+id/action_navigation_home_to_lastMatchFragment"
+            app:destination="@id/navigation_lastMatchFragment"
+            app:enterAnim="@anim/fragment_close_enter"
+            app:exitAnim="@anim/fragment_close_exit"
+            app:popEnterAnim="@anim/fragment_open_enter"
+            app:popExitAnim="@anim/fragment_open_exit" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_lastMatchFragment"
+        android:name="com.petrpol.ageofempires2leaderboard.ui.lastMatchFragment.LastMatchFragment"
+        android:label="@string/title_lastGame">
+        <argument
+            android:name="playerId"
+            app:argType="integer" />
+    </fragment>
+
+
+</navigation>

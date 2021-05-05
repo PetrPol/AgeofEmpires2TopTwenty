@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Age of Empires 2 leaderboard</string>
+
+    <string name="title_leaderboard">Leaderboard</string>
+    <string name="title_lastGame">Player\'s last match</string>
+
+    //Leaderboard fragment
+    <string name="leaderboard_title">Top 20 players in 1v1 random map</string>
+
+    //Player item
+    <string name="player_item_win_rate_title">win rate</string>
+    <string name="player_item_rating">Rating: %d</string>
+    <string name="text_percentage">%d%%</string>
+
+    //Last match
+    <string name="last_match_map_type">Map: %s</string>
+    <string name="last_match_players_title">Players:</string>
+
+</resources>

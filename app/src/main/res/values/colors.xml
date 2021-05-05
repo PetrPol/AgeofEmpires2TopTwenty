@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#313131</color>
+    <color name="colorPrimaryDark">#2b2b2b</color>
+    <color name="colorAccent">#7b6eb2</color>
+
+    //Rank colors
+    <color name="colorGold">#DCBE20</color>
+    <color name="colorSilver">#D3D3D3</color>
+    <color name="colorBronze">#cd7f32 </color>
+    <color name="colorGray">@color/colorAccent</color>
+
+    //Win indicator colors
+    <color name="colorGreen">#60BF24</color>
+    <color name="colorRed">#FF7575</color>
+
+    //Other colors
+    <color name="colorText">#DE000000</color>
+    <color name="colorTextDescription">#99000000</color>
+    <color name="colorItemBackground">#E6FFFFFF</color>
+
+</resources>
